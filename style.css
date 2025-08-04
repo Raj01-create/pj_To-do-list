@@ -1,1 +1,95 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(134deg,#ddccff,#661aff);
+   
+    padding: 10px;
+  
+
+    
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    background:#fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 13px;
+   
+  
+
+}
+.todo h2{
+    color: #333;
+   
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.row {
+  display: flex;
+  gap: 8px; 
+  height: 2.8rem;
+}
+
+#input-box {
+  flex: 1;                 
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color:#f2f2f2 ;  
+  border: none;
+  border-radius: 12px;
+    
+}
+
+#btn {
+  flex-shrink: 0;          
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #3333ff;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 80px;
+}
+#btn:hover{
+    background-color: #4d4dff;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px 8px 12px 50px ;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+        margin-right: 5rem;
+
+
+
+}
+ul list::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius:50% ;
+    
+}
+
